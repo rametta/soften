@@ -1,0 +1,24 @@
+{
+  "name": "soften",
+  "version": "1.0.0",
+  "description": "Base64 Compressed Image Alternative",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rametta/soften.git"
+  },
+  "keywords": [
+    "soften",
+    "blurry",
+    "placeholder"
+  ],
+  "author": "Jason Rametta",
+  "license": "apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rametta/soften/issues"
+  },
+  "homepage": "https://github.com/rametta/soften#readme"
+}
