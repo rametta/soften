@@ -1,6 +1,6 @@
 {
   "name": "soften",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Base64 Compressed Image Alternative",
   "main": "src/index.js",
   "scripts": {

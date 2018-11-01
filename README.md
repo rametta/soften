@@ -1,8 +1,8 @@
 # 🌫  Soften
 
-For ~~all~~ *one* of your blurry image needs
+For ~~all~~ *one* of your blurry image needs. [Demo](https://soften.surge.sh)
 
-[Demo](https://soften.surge.sh)
+![Blur Effect](https://i.imgur.com/BpFgQ3N.gif "Blur Effect")
 
 ## Install
 
@@ -25,9 +25,7 @@ If using with Gatsby Image
   imgStyle={{ transition: 'opacity .3s' }}
   fluid={{
     ...data // data from soften()
-    src: 'url to real image',
-    srcSet: '', // empty string needed
-    sizes: '' // emptry string needed
+    src: 'url to real image'
   }}
   critical={true}
 />

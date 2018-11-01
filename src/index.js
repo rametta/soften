@@ -11,6 +11,9 @@ const soften = ({ filePath, options = {} }) => {
         height: info.height,
         width: info.width,
         aspectRatio: info.width / info.height,
+        src: options.src || '',
+        srcSet: options.srcSet || '',
+        sizes: options.sizes || ''
       }))
   } catch (err) {
     return Promise.reject(err)
